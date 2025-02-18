@@ -58,3 +58,18 @@ body {
   background-color: #fff;
   margin: 30px auto 50px;
 }
+
+/* 외부 링크 (전화번호, 이메일, 인스타 등..) */
+.external {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 60%;
+  margin: 0 auto;
+  gap: 15px;
+}
+.external .link {
+  cursor: pointer;
+}
